@@ -1,3 +1,42 @@
-body{
+.map{
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    &__icon{
+        margin-right: 10px;
+    }
 
+    &__text{
+        font-weight: 500;
+    }
+}
+
+.discovery{
+    padding: 14px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    &__title{
+        margin: 0;
+    }
+    &__text{
+        font-weight: 300;
+        margin: 15px 0;
+    }
+    &__btn{
+        border: 0;
+        padding: 12px;
+        font-weight: 500;
+        font-size: 15px;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        background: linear-gradient(to bottom right, $rose 10%, $violet 90%);
+        &:hover{
+            background-color: white;
+            box-shadow: 5px 5px 5px rgba($violet, 0.60);
+            font-weight: bold;
+        }
+    }
 }
