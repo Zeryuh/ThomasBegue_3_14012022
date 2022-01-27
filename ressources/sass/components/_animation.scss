@@ -1,22 +1,31 @@
-@keyframes loader {
-    100% {
+@keyframes loader{
+    100%{
       opacity: 0;
       z-index: -10;
     }
   } 
   
-  @keyframes jump {
-    0% {
+  @keyframes jump{
+    0%{
       transform: translateX(0);
     }
-    25% {
+    25%{
       transform: translateY(8px);
     }
-    75% {
+    75%{
       transform: translateY(-8px);
     }
-    100% {
+    100%{
       transform: translateX(0);
     }
 
+  }
+
+  @keyframes ApparitionMenu{
+    0%{
+      transform: scale(0);
+    }
+    100%{
+      transform: scale(1);
+    }
   }

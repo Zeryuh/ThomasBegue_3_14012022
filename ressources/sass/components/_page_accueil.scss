@@ -1,6 +1,4 @@
-.card__icon__full{
-    display: none;
-}
+
 .map {
     display: flex;
     justify-content: center;
@@ -154,16 +152,6 @@
     &__text{
         margin: 0;
     }
-    // &__btn{
-    //     height: 32px;
-    //     width: 32px;
-    //     background-color: transparent;
-    //     border: transparent 0px solid;
-    //     padding: 0;
-    //     display: flex;
-    //     align-items: center;
-    //     justify-content: center;
-    // }
     &__icon{
         position: absolute;
         right: 16px;
@@ -186,42 +174,5 @@
         background-clip: text;
         -webkit-background-clip: text;
         opacity: 1;
-    }
-}
-
-.footer{
-    background-color: rgb(68, 68, 68);
-    margin-top: 10%;
-    &__title{
-        color: white;
-        font-family: "Shrikhand";
-        margin: 0;
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-    &__information{
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    &__liste{
-        margin: 8px 0;
-        &:first-child{
-            margin-top: 0;
-        }
-        &:last-child{
-            margin-bottom: 0;
-        }
-    }
-    &__direction{
-        color: white;
-        text-decoration: none;
-        &:hover{
-            text-decoration: underline;
-        }
-    }
-    &__icon{
-        width: 20px;
-        margin-right: 10px;
     }
 }

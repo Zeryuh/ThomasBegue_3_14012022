@@ -62,7 +62,7 @@
             <div class="container">
                 <h3 class="restaurants_title">Restaurants</h3>
                 <div class="cards">
-                    <a class="card" href="#">
+                    <a class="card" href="palette_gout.php">
                         <img src="assets\images\restaurants\palette_gout.jpg" alt="La palette du goût" class="card__img">
                         <span class="card__new">Nouveau</span>
                         <div class="card__body">

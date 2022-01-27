@@ -1,6 +1,8 @@
 .header{
     padding: 5px;
     box-shadow: 0 0 0.5rem rgb(116, 116, 116);
+    position: relative;
+    z-index: 1000;
     &__titre{
         font-family: "Shrikhand";
         margin: 0;
