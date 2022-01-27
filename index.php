@@ -11,6 +11,14 @@
 </head>
 
 <body>
+
+<div class="loader">
+    <div class="loader__itemContainer">
+      <div class="loader__item loader__item--1"></div>
+      <div class="loader__item loader__item--2"></div>
+      <div class="loader__item loader__item--3"></div>
+    </div>
+  </div>
     <header class="header">
         <h1 class="header__titre">
             ohmyfood
@@ -21,17 +29,121 @@
             <i class="fas fa-map-marker-alt map__icon"></i>
             <span class="map__text">Paris, Belleville</span>
         </section>
-        
+
         <section class="discovery">
             <h3 class="discovery__title">Réservez le menu qui vous convient</h3>
             <p class="discovery__text">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
             <button class="discovery__btn">Explorer nos restaurants</button>
         </section>
 
+        <section class="functioning">
+            <div class="container">
+                <h3 class="functioning__title">Fonctionnement</h3>
+                <nav>
+                    <ol class="functioning__menu__global">
+                        <li class="functioning__menu">
+                            <i class="fas fa-mobile-alt functioning__icon"></i>
+                            <span class="functioning__text">Choisissez un restaurant</span>
+                        </li>
+                        <li class="functioning__menu">
+                            <i class="fas fa-list functioning__icon"></i>
+                            <span class="functioning__text">Composez votre menu</span>
+                        </li>
+                        <li class="functioning__menu">
+                            <i class="fas fa-store functioning__icon"></i>
+                            <span class="functioning__text">Dégustez au restaurant</span>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
 
-
-
+        <section class="restaurants" id="restaurant">
+            <div class="container">
+                <h3 class="restaurants_title">Restaurants</h3>
+                <div class="cards">
+                    <a class="card" href="#">
+                        <img src="assets\images\restaurants\palette_gout.jpg" alt="La palette du goût" class="card__img">
+                        <span class="card__new">Nouveau</span>
+                        <div class="card__body">
+                            <div class="card__message">
+                                <h4 class="card__title">La palette du goût</h4>
+                                <span class="card__text">Ménilmontant</span>
+                            </div>
+                            <div class="card__btn">
+                                <i class="card__icon far fa-heart" aria-hidden="true"></i>
+                                <i class="card__icon fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="assets\images\restaurants\note_enchante.jpg" alt="La note enchantée" class="card__img">
+                        <span class="card__new">Nouveau</span>
+                        <div class="card__body">
+                            <div class="card__message">
+                                <h4 class="card__title">La note enchantée</h4>
+                                <span class="card__text">Charonne</span>
+                            </div>
+                            <div class="card__btn">
+                                <i class="card__icon far fa-heart"></i>
+                                <i class="card__icon fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="assets\images\restaurants\francaise.jpg" alt="À la francaise" class="card__img">
+                        <div class="card__body">
+                            <div class="card__message">
+                                <h4 class="card__title">À la francaise</h4>
+                                <span class="card__text">Cité Rouge</span>
+                            </div>
+                            <div class="card__btn">
+                                <i class="card__icon far fa-heart"></i>
+                                <i class="card__icon fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="assets\images\restaurants\delice_sens.jpg" alt="Le délice des sens" class="card__img">
+                        <div class="card__body">
+                            <div class="card__message">
+                                <h4 class="card__title">Le délice des sens</h4>
+                                <span class="card__text">Folie-Méricourt</span>
+                            </div>
+                            <div class="card__btn">
+                                <i class="card__icon far fa-heart"></i>
+                                <i class="card__icon fas fa-heart"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__title">ohmyfood</p>
+            <nav>
+                <ul class="footer__information">
+                    <li class="footer__liste">
+                        <a class="footer__direction" href="#"><i class="footer__icon fas fa-utensils"></i>Proposer un restaurant</a>
+                    </li>
+                    <li class="footer__liste">
+                        <a class="footer__direction" href="#"><i class="footer__icon fas fa-hands-helping"></i>Devenir partenaire</a>
+                    </li>
+                    <li class="footer__liste">
+                        <a class="footer__direction" href="#">Mentions légales</a>
+                    </li>
+                    <li class="footer__liste">
+                        <a class="footer__direction" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+
     <script src="https://kit.fontawesome.com/e6a1b3e5f7.js" crossorigin="anonymous"></script>
 
 </body>
