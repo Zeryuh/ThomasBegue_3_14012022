@@ -12,20 +12,26 @@ h2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        // transform: translateY(-50%);
         color: black;
         font-size: 25px;
     }
 }
 .top__image {
     max-width: 100%;
-    max-height: 512px;
+    max-height: 350px;
     width: 100%;
     object-fit: cover;
+    &__enchante{
+        max-width: 100%;
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 .global {
     margin-top: -60px;
+    padding-bottom: 60px;
     border-radius: 30px 30px 0 0;
     background-color: rgb(245, 245, 245);
     z-index: 1;
@@ -107,22 +113,26 @@ h2 {
 
     &__name {
         white-space: nowrap;
+        overflow: hidden;
         text-overflow: ellipsis;
         flex: 1;
     }
     &__title {
         white-space: nowrap;
+        overflow: hidden;
         margin: 0;
         text-overflow: ellipsis;
     }
     &__description {
         white-space: nowrap;
+        overflow: hidden;
         margin: 0;
         text-overflow: ellipsis;
     }
     &__price {
         font-weight: bold;
         display: flex;
+        overflow: hidden;
         justify-content: flex-end;
         align-items: flex-end;
     }
@@ -155,4 +165,27 @@ h2 {
     &__icon {
         color: $vert;
     }
+}
+
+.global__commander{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    &__btn {
+        border: none;
+        padding: 12px;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        background: linear-gradient(to bottom right, $rose 10%, $violet 90%);
+        &:hover {
+            background-color: white;
+            box-shadow: 5px 5px 5px rgba($violet, 0.6);
+            font-weight: bold;
+        }
+    
+}
 }

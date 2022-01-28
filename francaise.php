@@ -26,11 +26,11 @@
         </h1>
     </header>
 
-    <img src="assets\images\restaurants\palette_gout.jpg" alt="La palette du goût" class="top__image">
+    <img src="assets\images\restaurants\francaise.jpg" alt="A la française" class="top__image">
 
     <main class="global container">
         <div class="global__restaurant">
-            <h2 class="global__title">La palette du goût</h2>
+            <h2 class="global__title">À la française</h2>
             <div class="global__btn">
                 <i class="global__icon far fa-heart" aria-hidden="true"></i>
                 <i class="global__icon fas fa-heart"></i>
@@ -41,8 +41,8 @@
                 <h4 class="menu__title">Entrées</h4>
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Fricassée d'escargot</h4>
-                        <p class="plat__name__description">Au piment d'espelette</p>
+                        <h4 class="plat__name__title">Tartare de poulpe acidulé</h4>
+                        <p class="plat__name__description">Aux zestes d'orange</p>
                     </div>
                     <div class="plat__price">25€</div>
                     <div class="plat__confirmation">
@@ -54,8 +54,8 @@
 
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Foie gras de canard mi-cuit</h4>
-                        <p class="plat__name__description">Et ses copeaux de truffe noire</p>
+                        <h4 class="plat__name__title">Velouté de légumes d'antan</h4>
+                        <p class="plat__name__description">Carotte, panais, topinambour</p>
                     </div>
                     <div class="plat__price">35€</div>
                     <div class="plat__confirmation">
@@ -67,8 +67,8 @@
 
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Oeuf au plat</h4>
-                        <p class="plat__name__description">Assaisonné à la truffe sur lit de caviar</p>
+                        <h4 class="plat__name__title">Soupe à l'oignon</h4>
+                        <p class="plat__name__description">Revisitée</p>
                     </div>
                     <div class="plat__price">20€</div>
                     <div class="plat__confirmation">
@@ -83,8 +83,8 @@
                 <h4 class="menu__title">Plats</h4>
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Filet de boeuf aux herbes</h4>
-                        <p class="plat__name__description">Accompagné de sa ribambelle de légumes</p>
+                        <h4 class="plat__name__title">Coquilles Saint-Jacques</h4>
+                        <p class="plat__name__description">Accompagnées d'une purée de panais</p>
                     </div>
                     <div class="plat__price">40€</div>
                     <div class="plat__confirmation">
@@ -96,8 +96,8 @@
 
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Parmentier de queue de boeuf</h4>
-                        <p class="plat__name__description">À la truffe noire sur sa purée de panais</p>
+                        <h4 class="plat__name__title">Magret de canard</h4>
+                        <p class="plat__name__description">Et parmentier de pommes de terre</p>
                     </div>
                     <div class="plat__price">35€</div>
                     <div class="plat__confirmation">
@@ -109,8 +109,8 @@
 
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Filet de turbot</h4>
-                        <p class="plat__name__description">Aux agrumes</p>
+                        <h4 class="plat__name__title">Pigeonneau d’Ille-et-Vilaine</h4>
+                        <p class="plat__name__description">Sur son lit de gnocchis aux légumes</p>
                     </div>
                     <div class="plat__price">44€</div>
                     <div class="plat__confirmation">
@@ -125,8 +125,8 @@
                 <h4 class="menu__title">Desserts</h4>
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Paris-Brest</h4>
-                        <p class="plat__name__description">Revisité</p>
+                        <h4 class="plat__name__title">Pétales de violettes glacés</h4>
+                        <p class="plat__name__description">Et purée de noisettes</p>
                     </div>
                     <div class="plat__price">18€</div>
                     <div class="plat__confirmation">
@@ -138,8 +138,8 @@
 
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Macaron au chocolat d'exception </h4>
-                        <p class="plat__name__description">Et glace à la vanille de Madagascar</p>
+                        <h4 class="plat__name__title">Fondant au chocolat</h4>
+                        <p class="plat__name__description">Revisité</p>
                     </div>
                     <div class="plat__price">22€</div>
                     <div class="plat__confirmation">
@@ -151,8 +151,8 @@
 
                 <section class="plat">
                     <div class="plat__name">
-                        <h4 class="plat__name__title">Mousse au chocolat </h4>
-                        <p class="plat__name__description">Au piment d'Espelette et à la truffe noire</p>
+                        <h4 class="plat__name__title">Millefeuille croustillant</h4>
+                        <p class="plat__name__description">Myrtilles et pâte d’amande</p>
                     </div>
                     <div class="plat__price">23€</div>
                     <div class="plat__confirmation">
@@ -164,7 +164,7 @@
             </section>
         </div>
         <div class="global__commander">
-            <button class="global__commander__btn">Commander</button>
+            <button class="commander">Commander</button>
         </div>
     </main>
     <footer class="footer">

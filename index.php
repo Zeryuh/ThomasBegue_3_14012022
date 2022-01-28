@@ -76,7 +76,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="card" href="#">
+                    <a class="card" href="note_enchante.php">
                         <img src="assets\images\restaurants\note_enchante.jpg" alt="La note enchantée" class="card__img">
                         <span class="card__new">Nouveau</span>
                         <div class="card__body">
@@ -90,11 +90,11 @@
                             </div>
                         </div>
                     </a>
-                    <a class="card" href="#">
+                    <a class="card" href="francaise.php">
                         <img src="assets\images\restaurants\francaise.jpg" alt="À la francaise" class="card__img">
                         <div class="card__body">
                             <div class="card__message">
-                                <h4 class="card__title">À la francaise</h4>
+                                <h4 class="card__title">À la française</h4>
                                 <span class="card__text">Cité Rouge</span>
                             </div>
                             <div class="card__btn">
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                     </a>
-                    <a class="card" href="#">
+                    <a class="card" href="delice_sens">
                         <img src="assets\images\restaurants\delice_sens.jpg" alt="Le délice des sens" class="card__img">
                         <div class="card__body">
                             <div class="card__message">
