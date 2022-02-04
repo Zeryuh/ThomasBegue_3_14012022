@@ -63,6 +63,12 @@
   counter-reset: compteListe;
 }
 
+@media (min-width: 1024px) {
+  .functioning__menu__global {
+    display: flex;
+  }
+}
+
 .functioning__menu {
   padding: 20px;
   margin: 16px 0 16px 14px;
@@ -72,6 +78,14 @@
   display: flex;
   position: relative;
   cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .functioning__menu {
+    flex: 1;
+    margin: 0;
+    margin-left: 32px;
+  }
 }
 
 .functioning__menu:first-child {
@@ -125,6 +139,12 @@
   grid-template-columns: repeat(1, 1fr);
   column-gap: 32px;
   row-gap: 32px;
+}
+
+@media (min-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .card {
@@ -405,81 +425,6 @@ h2 {
   font-weight: bold;
 }
 
-.loader {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  background-color: rgba(255, 255, 255, 0.9);
-  animation: loader 0.01s;
-  animation-delay: 1.75s;
-  animation-fill-mode: both;
-  z-index: 10000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.loader__item {
-  height: 1rem;
-  width: 1rem;
-  border-radius: 1rem;
-  animation: jump 1s;
-  animation-iteration-count: 1;
-}
-
-.loader__itemContainer {
-  display: flex;
-  width: 5rem;
-  justify-content: space-between;
-}
-
-.loader__item--1 {
-  background-color: #9356DC;
-}
-
-.loader__item--2 {
-  background-color: #FF79DA;
-  animation-delay: 0.25s;
-}
-
-.loader__item--3 {
-  background-color: #99E2D0;
-  animation-delay: 0.5s;
-}
-
-@keyframes loader {
-  100% {
-    opacity: 0;
-    z-index: -10;
-  }
-}
-
-@keyframes jump {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateY(8px);
-  }
-  75% {
-    transform: translateY(-8px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes ApparitionMenu {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 body, html {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -496,6 +441,12 @@ body, html {
   display: flex;
   flex-direction: column;
   padding: 16px;
+}
+
+@media (min-width: 1024px) {
+  .footer .container {
+    align-items: center;
+  }
 }
 
 .header {

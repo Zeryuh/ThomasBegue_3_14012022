@@ -53,6 +53,9 @@
         padding: 0;
         list-style: none;
         counter-reset: compteListe;
+        @media (min-width: 1024px){
+            display: flex;
+        }
     }
     &__menu {
         padding: 20px;
@@ -62,6 +65,11 @@
         background-color: rgb(245, 245, 245);
         display: flex;
         position: relative;
+        @media (min-width: 1024px){
+            flex: 1;
+            margin: 0;
+            margin-left: 32px;
+        }
         cursor: pointer;
         &:first-child {
             margin-top: 0;
@@ -110,6 +118,9 @@
     grid-template-columns: repeat(1, 1fr);
     column-gap: 32px;
     row-gap: 32px;
+    @media (min-width:1024px){
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .card{
