@@ -12,15 +12,8 @@
 
 <body>
 
-    <div class="loader">
-        <div class="loader__itemContainer">
-            <div class="loader__item loader__item--1"></div>
-            <div class="loader__item loader__item--2"></div>
-            <div class="loader__item loader__item--3"></div>
-        </div>
-    </div>
     <header class="header">
-        <a href="index.php"><i class="header__icon fas fa-arrow-left"></i></a>
+        <a href="index.html"><i class="header__icon fas fa-arrow-left"></i></a>
         <h1 class="header__titre">
             ohmyfood
         </h1>
