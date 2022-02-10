@@ -139,10 +139,11 @@ h2 {
         overflow: hidden;
         justify-content: flex-end;
         align-items: flex-end;
+        margin-right: 10px;
     }
     &__confirmation {
         background-color: $vert;
-        margin: -16px -80px -16px -16px;
+        margin: -16px -80px -16px 0px;
         width: 64px;
         display: flex;
         align-items: center;

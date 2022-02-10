@@ -372,11 +372,12 @@ h2 {
   overflow: hidden;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-right: 10px;
 }
 
 .plat__confirmation {
   background-color: #99E2D0;
-  margin: -16px -80px -16px -16px;
+  margin: -16px -80px -16px 0px;
   width: 64px;
   display: flex;
   align-items: center;
