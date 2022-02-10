@@ -74,6 +74,10 @@ h2 {
 }
 .menu__global {
     display: grid;
+    @media (min-width:1024px){
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 16px;
+    }
 }
 .menu {
     max-width: 100%;
