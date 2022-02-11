@@ -280,7 +280,7 @@ h2 {
   opacity: 0;
 }
 
-.global .fas {
+.global .fas.fa-heart {
   position: absolute;
   right: 30px;
   color: transparent;
