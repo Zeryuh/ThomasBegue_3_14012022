@@ -508,16 +508,21 @@ h2 {
   }
 }
 
-body, html {
+body {
+  display: flex;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+  flex-direction: column;
 }
 
 .container {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   max-width: 1300px;
-  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer .container {
