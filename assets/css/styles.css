@@ -5,9 +5,11 @@
   padding: 14px;
   background-color: #e6e6e6;
   position: relative;
+  padding: 0;
 }
 
 .map__icon {
+  margin-top: 22px;
   margin-right: 10px;
 }
 
@@ -347,23 +349,23 @@ h2 {
 
 .plat__name {
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
+  overflow: hidden;
   flex: 1;
 }
 
 .plat__title {
   white-space: nowrap;
+  text-overflow: ellipsis;
   overflow: hidden;
   margin: 0;
-  text-overflow: ellipsis;
 }
 
 .plat__description {
   white-space: nowrap;
+  text-overflow: ellipsis;
   overflow: hidden;
   margin: 0;
-  text-overflow: ellipsis;
 }
 
 .plat__price {

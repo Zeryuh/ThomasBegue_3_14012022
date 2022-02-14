@@ -117,21 +117,22 @@ h2 {
 
     &__name {
         white-space: nowrap;
-        overflow: hidden;
         text-overflow: ellipsis;
+        overflow: hidden;
         flex: 1;
     }
     &__title {
         white-space: nowrap;
+        text-overflow: ellipsis;
         overflow: hidden;
         margin: 0;
-        text-overflow: ellipsis;
+        
     }
     &__description {
         white-space: nowrap;
+        text-overflow: ellipsis;
         overflow: hidden;
         margin: 0;
-        text-overflow: ellipsis;
     }
     &__price {
         font-weight: bold;
@@ -191,6 +192,5 @@ h2 {
             box-shadow: 5px 5px 5px rgba($violet, 0.6);
             font-weight: bold;
         }
-    
 }
 }

@@ -5,10 +5,11 @@
     padding: 14px;
     background-color: rgb(230, 230, 230);
     position: relative;
+    padding: 0;
     &__icon {
+        margin-top: 22px;
         margin-right: 10px;
     }
-
     &__text {
         font-weight: 500;
     }
