@@ -21,7 +21,7 @@ h2 {
     max-height: 350px;
     width: 100%;
     object-fit: cover;
-    &__enchante{
+    &__enchante {
         max-width: 100%;
         max-height: 300px;
         width: 100%;
@@ -74,8 +74,8 @@ h2 {
 }
 .menu__global {
     display: grid;
-    @media (min-width:1024px){
-        grid-template-columns: repeat(3,1fr);
+    @media (min-width: 1024px) {
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 16px;
     }
 }
@@ -102,7 +102,8 @@ h2 {
 }
 .plat {
     background-color: white;
-    padding: 10px;
+    height: 80px;
+    padding-left: 16px;
     display: flex;
     border-radius: 20px;
     margin: 16px 0;
@@ -120,19 +121,21 @@ h2 {
         text-overflow: ellipsis;
         overflow: hidden;
         flex: 1;
-    }
-    &__title {
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        margin: 0;
         
-    }
-    &__description {
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        margin: 0;
+        &__title {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            margin: 0;
+            margin-top: 12px;
+        }
+        &__description {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            margin: 0;
+            margin-top: 15px;
+        }
     }
     &__price {
         font-weight: bold;
@@ -140,7 +143,8 @@ h2 {
         overflow: hidden;
         justify-content: flex-end;
         align-items: flex-end;
-        margin-right: 10px;
+        padding-right: 40px;
+        padding-bottom: 15px;
     }
     &__confirmation {
         background-color: $vert;
@@ -152,7 +156,7 @@ h2 {
         transition-duration: 500ms;
     }
     &:hover &__confirmation {
-        margin-right: -16px;
+        margin-right: -4px;
     }
     &__cacheicon {
         height: 25px;
@@ -173,7 +177,7 @@ h2 {
     }
 }
 
-.global__commander{
+.global__commander {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,5 +196,5 @@ h2 {
             box-shadow: 5px 5px 5px rgba($violet, 0.6);
             font-weight: bold;
         }
-}
+    }
 }

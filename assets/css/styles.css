@@ -333,7 +333,8 @@ h2 {
 
 .plat {
   background-color: white;
-  padding: 10px;
+  height: 80px;
+  padding-left: 16px;
   display: flex;
   border-radius: 20px;
   margin: 16px 0;
@@ -354,18 +355,20 @@ h2 {
   flex: 1;
 }
 
-.plat__title {
+.plat__name__title {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   margin: 0;
+  margin-top: 12px;
 }
 
-.plat__description {
+.plat__name__description {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   margin: 0;
+  margin-top: 15px;
 }
 
 .plat__price {
@@ -374,7 +377,8 @@ h2 {
   overflow: hidden;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-right: 10px;
+  padding-right: 40px;
+  padding-bottom: 15px;
 }
 
 .plat__confirmation {
@@ -388,7 +392,7 @@ h2 {
 }
 
 .plat:hover .plat__confirmation {
-  margin-right: -16px;
+  margin-right: -4px;
 }
 
 .plat__cacheicon {
@@ -510,10 +514,11 @@ h2 {
   }
 }
 
-body {
+body, html {
   display: flex;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  height: 100%;
   overflow-x: hidden;
   flex-direction: column;
 }

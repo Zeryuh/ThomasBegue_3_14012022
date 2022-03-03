@@ -1,8 +1,8 @@
-body{
+body, html{
     display: flex;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    height: 100%;
     overflow-x: hidden;
     flex-direction: column;
-
 }
